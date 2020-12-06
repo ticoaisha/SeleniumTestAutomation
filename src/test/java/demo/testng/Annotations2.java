@@ -64,5 +64,9 @@ public class Annotations2 extends InitDriver {
 		System.err.println("This is test three");
 	}
 	
+	@Test
+	public void testFour() {
+		System.err.println("This is test four");
+	}
 	
 }
