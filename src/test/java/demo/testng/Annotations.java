@@ -78,8 +78,5 @@ public class Annotations {
 
 	}
 	
-	public void test() {
-		System.out.println("hi there from test method");
-	}
 
 }
