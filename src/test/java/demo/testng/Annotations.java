@@ -77,5 +77,9 @@ public class Annotations {
 		driver.get("http://www.automationpractice.com/");
 
 	}
+	
+	public void test() {
+		
+	}
 
 }
