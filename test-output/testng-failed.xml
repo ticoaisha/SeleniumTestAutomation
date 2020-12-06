@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Registration Tests]">
+  <test thread-count="5" name="Registration Test in chrome rowser(failed)">
+    <parameter name="firstname" value="Michael"/>
+    <parameter name="userid" value="m.smith2020"/>
+    <parameter name="browserType" value="ie"/>
+    <parameter name="lastname" value="Smith"/>
+    <classes>
+      <class name="net.techcenture.automation.tests1.Registration">
+        <methods>
+          <include name="invoke_browser"/>
+          <include name="RegistrationTest2"/>
+          <include name="close_browser"/>
+          <include name="RegisterrAuser"/>
+          <include name="RegistrationTest3"/>
+        </methods>
+      </class> <!-- net.techcenture.automation.tests1.Registration -->
+    </classes>
+  </test> <!-- Registration Test in chrome rowser(failed) -->
+</suite> <!-- Failed suite [All Registration Tests] -->

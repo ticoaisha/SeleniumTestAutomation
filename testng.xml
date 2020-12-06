@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="All Tests" verbose="1" >
+  <test name="login Tests"   >
+    <classes>
+      <class name="demo.testng.Annotations2" />
+       <class name="demo.testng.Annotations3" />
+   </classes>
+ </test>
+</suite>
